@@ -80,17 +80,19 @@ p {
     margin: 17px 0;
 }
 
-div .blinking-cursor {
-  font-weight: 500;
-  font-size: 25px;
-  -webkit-animation: 1s blink step-end infinite;
-}
-
-@-webkit-keyframes blink {
+@-webkit-keyframes blink 
+{
   from, to {
     color: transparent;
   }
   50% {
     color: red;
   }
+}
+
+.blinking-cursor 
+{
+  font-weight: 500;
+  font-size: 25px;
+  -webkit-animation: 1s blink step-end infinite;
 }
