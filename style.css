@@ -80,7 +80,7 @@ p {
     margin: 17px 0;
 }
 
-.blinking-cursor {
+div .blinking-cursor {
   font-weight: 500;
   font-size: 25px;
   -webkit-animation: 1s blink step-end infinite;
