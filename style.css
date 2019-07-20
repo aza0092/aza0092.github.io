@@ -83,6 +83,7 @@ p {
 .blinking-cursor {
   font-weight: 500;
   font-size: 25px;
+  color: red;
   -webkit-animation: 1s blink step-end infinite;
 }
 
