@@ -7,7 +7,8 @@ body {
     background-position: 0 0, 1px 1px;
     background-size: 50px 50px;
   }
-  .module {
+
+.module {
       position: relative;
   
     background-color: #000000;
@@ -19,19 +20,18 @@ body {
     font-size: 25pt;
     color: #ffffff;
     letter-spacing: 3px;
-  }
+}
 
-  body {
+body {
     padding: 20px;
-  }
+}
 
-  .centered {
+.centered {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
+}
 
 main .boarder {
     z-index: 3;
@@ -80,8 +80,7 @@ p {
     margin: 17px 0;
 }
 
-@-webkit-keyframes blink 
-{
+@-webkit-keyframes blink {
   from, to {
     color: transparent;
   }
@@ -90,9 +89,12 @@ p {
   }
 }
 
-.blinking-cursor 
-{
+.blinking-cursor {
   font-weight: 500;
   font-size: 25px;
   -webkit-animation: 1s blink step-end infinite;
+}
+
+.highlighter::selection {
+  background-color: rgba(255,0,0,.4);
 }
